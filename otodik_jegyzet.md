@@ -1,4 +1,4 @@
-Intel’s Core-based client processors - Jegyzet
+# Intel’s Core-based client processors - Jegyzet
 
 Szerző: Dezső Sima
 Verzió: 8.0
@@ -6,7 +6,7 @@ Dátum: 2026. február
 
 ---
 
-1. Bevezetés és áttekintés
+## 1. Bevezetés és áttekintés
 
 - Kliens processzorok: Asztali számítógépeket (DT) és laptopokat (notebookokat) kiszolgáló
   processzorok.
@@ -21,7 +21,7 @@ Dátum: 2026. február
   - Client: Core i9/i7/i5/i3 (akár 8+16 mag + grafika).
   - Mobile: Atom vonalak, LP Core modellek (akár 10 mag + grafika).
 
-Intel útja a Core családig (Mérföldkövek)
+### Intel útja a Core családig (Mérföldkövek)
 
 - 1971: 4004 (4-bit)
 - 1972: 8008 (8-bit)
@@ -40,7 +40,7 @@ Intel útja a Core családig (Mérföldkövek)
 - 2004: 64-bit korszak (Prescott F Pentium 4 modell).
 - 2006: A Core család elindítása (64-bit dual-core, maximális teljesítmény/Watt fókusz).
 
-Generációs áttekintés (Főbb jellemzők)
+### Generációs áttekintés (Főbb jellemzők)
 
 - 1.  gen: Core 2 (65 nm, 2006. 06.), Penryn (45 nm, 2007. 11. - Tick), Nehalem (45 nm, 2008. 11. -
       Tock).
@@ -59,7 +59,7 @@ Generációs áttekintés (Főbb jellemzők)
 - 13. gen: Raptor Lake (Intel 7 / 10 nm, 2022. 10.).
 - 14. gen: Raptor Lake Refresh (Intel 7, 2023. 10.), Meteor Lake (Intel 4 / 7 nm, 2023. 12.).
 
-Core Ultra sorozatok (CUS)
+### Core Ultra sorozatok (CUS)
 
 - CUS 1: Meteor Lake (Series 1, 2023. 12.).
 - CUS 2: Lunar Lake (Series 2, 2024. 09.), Arrow Lake (Series 2, 2024. 10.).
@@ -67,8 +67,9 @@ Core Ultra sorozatok (CUS)
 
 ---
 
-2. Elnevezési konvenciók
-   Az Intel két elkülönülő elnevezési rendszert alkalmaz:
+## 2. Elnevezési konvenciók
+
+Az Intel két elkülönülő elnevezési rendszert alkalmaz:
 
 a) Eredeti rendszer (1-14. generációig, 2011-2023)
 
@@ -90,7 +91,7 @@ b) Új rendszer (Core Ultra sorozat, 2023-tól)
 
 ---
 
-3. Mikroarchitekturális fejlesztések
+## 3. Mikroarchitekturális fejlesztések
 
 Evolúciós lépések
 
@@ -114,7 +115,7 @@ Fontosabb technológiák
   - Foveros Direct 3D: Közvetlen réz-réz (Cu-to-Cu) hibrid kötés, forrasztás nélkül (<10 μm
     osztásköz, 2026, Panther Lake).
 
-Memória alrendszer
+### Memória alrendszer
 
 - Váltás direkt kapcsolatra: Korábban az északi hídon (NB) keresztül, a Nehalem-től (2008/2009)
   kezdve a memóriavezérlő (MC) a processzorba integrált.
@@ -125,7 +126,7 @@ Memória alrendszer
   - On-package memória: A processzor tokján belül elhelyezett memória (Lunar Lake: 16/32 GB
     LPDDR5x-8533).
 
-3D Grafika és Shadel-ek
+### 3D Grafika és Shadel-ek
 
 - Vertex, Pixel, Geometry shader-ek.
 - Unified Design: 2006 óta (Shader model 4.0) minden shader ugyanazon a hardveren (GPU magokon)
@@ -135,9 +136,9 @@ Memória alrendszer
 
 ---
 
-4. Esettanulmányok
+## 4. Esettanulmányok
 
-4.1 Intel Core Ultra Series 2 (Lunar Lake, 2024)
+### 4.1 Intel Core Ultra Series 2 (Lunar Lake, 2024)
 
 - Cél: Verseny a Qualcomm Snapdragon X (ARM) processzorokkal.
 - Felépítés: 2-die heterogén design.
@@ -150,7 +151,7 @@ Memória alrendszer
 - TDP: 17-30 W.
 - Akkumulátor élettartam: 17 óra 7 perc (Procyon teszt), megelőzve a Qualcommot és az AMD-t.
 
-4.2 Intel Core Ultra Series 3 (Panther Lake, 2026)
+### 4.2 Intel Core Ultra Series 3 (Panther Lake, 2026)
 
 - Gyártástechnológia: Intel 18A (az első termék ezen a csomóponton).
 - Felépítés: Akár 16 mag (P, E és LPE keveréke).
@@ -165,7 +166,7 @@ Memória alrendszer
 
 ---
 
-Piaci és pénzügyi adatok
+### Piaci és pénzügyi adatok
 
 - Biztonság: 2023. 11-ben a Google súlyos sebezhetőséget tárt fel (10-13. generációs
   processzoroknál), amit mikrokód foltokkal javítottak. Ez piaci részesedés vesztéshez vezetett.

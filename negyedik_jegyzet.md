@@ -1,4 +1,4 @@
-Intel’s Core family – a brief introduction
+# Intel’s Core family – a brief introduction
 
 - Szerző: Dezső Sima
 - Verzió: Vers. 8.0
@@ -7,7 +7,7 @@ Intel’s Core family – a brief introduction
 
 ---
 
-Tartalomjegyzék
+# Tartalomjegyzék
 
 1.  Lessons learned from the preceding Pentium 4 family
 2.  Intel's key design decisions made for the Core family
@@ -17,7 +17,7 @@ Tartalomjegyzék
 
 ---
 
-1. Tanulságok a Pentium 4 családból
+## 1. Tanulságok a Pentium 4 családból
 
 - Pentium 4 család indítása: 11/2000.
 - Generációk (Tick-Tock 2 éves ciklusokban):
@@ -52,7 +52,7 @@ Tartalomjegyzék
 
 ---
 
-2. Kulcsfontosságú tervezési döntések a Core családnál
+## 2. Kulcsfontosságú tervezési döntések a Core családnál
 
 - Tick-Tock modell (kétfázisú):
   - Tick: Gyártástechnológia zsugorítása (pl. 65nm -> 45nm).
@@ -105,7 +105,7 @@ Tartalomjegyzék
 
 ---
 
-3. Az x86 ISA evolúciója
+## 3. Az x86 ISA evolúciója
 
 - Kezdet: 1978.
 - SIMD (Single Instruction Multiple Data): Párhuzamos adatfeldolgozás.
@@ -124,7 +124,7 @@ Tartalomjegyzék
 
 ---
 
-4. A Core család áttekintése
+## 4. A Core család áttekintése
 
 - Kategóriák:
   - Szerver: Xeon E7/E5/E3 Platinum/Gold (akár 144 mag).
